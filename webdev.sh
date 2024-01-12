@@ -1,10 +1,9 @@
 # httpie: http and api testing
-network="httpie"
+network="httpie wuzz"
 
 suite="$network"
 apt_install="sudo apt-get install $suite"
 apt_update="sudo apt-get update"
-
 $apt_update && $apt_install
 
 # nvm: node version manager (node is a js runtime)
