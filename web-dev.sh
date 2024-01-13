@@ -10,6 +10,7 @@ network="httpie wuzz"
 suite="$lang $network"
 apt_update="sudo apt-get update"
 apt_install="sudo apt-get install $suite"
+
 $apt_update && $apt_install
 
 # nvm: node version manager (node is a js runtime)

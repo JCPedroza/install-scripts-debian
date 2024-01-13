@@ -17,7 +17,7 @@ git="git git-gui gitk gh"
 # code: gui text editor (vs code)
 editor="emacs vim sublime-text code"
 
-suite="$os $utils $git $editor"
+suite="$os $git $editor"
 apt_update="sudo apt-get update"
 apt_install="sudo apt-get install $suite"
 
