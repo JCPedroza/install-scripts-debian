@@ -1,8 +1,8 @@
 # Debian Install Scripts
 
 Scripts for installing specific toolchains on Debian-based
-systems (`apt` is used when possible). Bash is the expected
-shell, but some scripts might work with other shells.
+systems (`apt` is used when possible). The expected shell is
+`bash`, but some scripts might work with other shells.
 
 In order to run a script, you might first need to give execution
 permission to the file.
@@ -11,7 +11,7 @@ permission to the file.
 chmod +x <file path>
 ```
 
-To run a script use `.` or `source`.
+Then To run the script use `.` or `source`.
 
 ```bash
 ./<file path>
