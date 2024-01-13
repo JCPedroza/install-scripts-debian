@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # tree: displays an indented directory tree
 # ncdu: disk usage viewer
 # bpytop: resource monitor
