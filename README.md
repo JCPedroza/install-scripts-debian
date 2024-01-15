@@ -11,7 +11,7 @@ permission to the file.
 chmod +x <file path>
 ```
 
-Then To run the script use `.` or `source`.
+Then run the script using `.` or `source`.
 
 ```bash
 ./<file path>
