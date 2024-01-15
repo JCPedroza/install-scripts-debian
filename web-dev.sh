@@ -3,8 +3,11 @@
 # php: server-side, html-embedded scripting language
 lang="php"
 
+# postgresql: object-relational sql database
+db="postgresql"
+
 # httpie: http and api testing
-# wuzz: unteractive console tool for HTTP inspection
+# wuzz: interactive console tool for HTTP inspection
 network="httpie wuzz"
 
 suite="$lang $network"
