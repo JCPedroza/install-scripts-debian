@@ -16,6 +16,11 @@ apt_install="sudo apt-get install $suite"
 
 $apt_update && $apt_install
 
+# pyenv: python version manager
+# for the latest pyenv install instructions see:
+# https://github.com/pyenv/pyenv
+curl https://pyenv.run | bash
+
 # nvm: node version manager (node is a js runtime)
 # for the latest nvm install instructions see:
 # https://github.com/nvm-sh/nvm
