@@ -1,7 +1,8 @@
 #!/bin/bash
 
 # php: server-side, html-embedded scripting language
-lang="php"
+# python3-venv: create virtual environments for python
+lang="php python3-venv"
 
 # postgresql: object-relational sql database
 db="postgresql"
