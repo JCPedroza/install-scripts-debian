@@ -16,4 +16,5 @@ suite="$git $editor"
 apt_update="sudo apt-get update"
 apt_install="sudo apt-get install $suite"
 
+printf "*** Running 'apt-get update && apt-get install'***\n"
 $apt_update && $apt_install
